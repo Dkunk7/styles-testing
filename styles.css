@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(206, 151, 162);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+#about {
+   color: orangered;
+}
+
+.first-h1 a {
+    text-shadow: 1px 1px darkblue ;
+    color: rgb(201, 201, 247);
+    text-decoration: none;
+}
+
+.first-h1 a:hover {
+    color: blueviolet;
+    text-shadow: darkblue;
+}
+p {
+    font-weight: bold;
+    margin-left: 20px;
+    padding-left: 20px;
+}
+
+/* .button-style {
+    size: 5rem;
+} */
+
+input {
+    background-color: peachpuff;
+    border-radius: 5px;
+    border-color:  red orange green blue;
+}
+.box-div {
+    text-align: center;
+}
+
+#box {
+    background-color: darkblue;
+    height: 150px;
+    width: 150px;
+    margin: 25px auto;
+}

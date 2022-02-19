@@ -4,9 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel = "stylesheet" href = "styles.css">
+    <title>Testing Portfolio</title>
 </head>
 <body>
-    
+    <nav>
+        <ul>
+            <li id = "about">About</li>
+            <li>Projects</li>
+            <li>Contact</li>
+            <!-- <li>Resume</li> -->
+        </ul>
+
+    </p>
+</nav>
+
+<h1 class = "first-h1"><a href = "https://www.google.com" target = "_blank">Google</a></h1>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim quia odit sint laborum aspernatur. Eius quo repellendus, incidunt odio vero cum deleniti cupiditate porro necessitatibus inventore, saepe obcaecati! Debitis, illo?</p>
+    <div>
+        <form>
+            <label for="word">Words</label>
+            <input type="text" name="word" id="">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="">
+
+            <label for="number">Phone</label>
+            <input type="tel" name="number" id="">
+
+            <label for="range">Range Test</label>
+            <input type="range" name="range" min = "0" max = "10" oninput="this.nextElementSibling.value = this.value">
+            <output>5</output>
+
+            <button class = "button-style" type="submit">Submit</button>
+            <!-- this is a comment -->
+        </form>
+    </div>
+
+    <div class = "box-div">
+        <div id = "box" ></div>
+
+        <button id = "shrinkBtn">Shrink</button>
+        <button id = "growBtn">Grow</button>
+        <button id = "resetBtn">Reset</button>
+
+        <script type = "text/javascript">
+            document.getElementById("shrinkBtn").addEventListener("click", function() {
+                document.getElementById("box").style.height = "25px";
+            });
+
+            document.getElementById("growBtn").addEventListener("click", function() {
+                document.getElementById("box").style.height = "250px";
+            });
+
+            document.getElementById("resetBtn").addEventListener("click", function() {
+                document.getElementById("box").style.height = "150px";
+            })
+        </script>
+
+    </div>
 </body>
+
 </html>
