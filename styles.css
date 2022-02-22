@@ -44,9 +44,30 @@ input {
     text-align: center;
 }
 
-#box {
+#box, #box-2 {
     background-color: darkblue;
     height: 150px;
     width: 150px;
     margin: 25px auto;
+}
+
+#box-2 {
+    background-color: darkorange;
+}
+
+.fade-trans {
+    transition: opacity 1s;
+}
+
+/* #box-2:hover {
+    opacity: 0%;
+} */
+
+.hover:hover { 
+    cursor: crosshair
+}
+
+.btn-container {
+    text-align: center;
+    /* margin: 25px auto; */
 }
